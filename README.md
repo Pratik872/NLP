@@ -1,7 +1,7 @@
 # SMS SPAM-HAM Classifier Deployment Branch
 This is a repository for deploying SMS Spam/Ham Classifier project in Heroku Cloud. You will find the code in [main](https://github.com/Pratik872/NLP/tree/main/E2EProject/SMSClassifier) branch.
 
-This project is deployed at heroku. Check [here](https://sms-classifier-nlp-ml.herokuapp.com/)
+This project is deployed at heroku. Check [here](https://sms-classifier-deploy.herokuapp.com/)
 
 ## Contents
 
