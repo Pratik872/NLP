@@ -1,15 +1,14 @@
-# Natural Language processing projects : 
-This is a repository containing NLP projects implemented by me for academic purposes. Note that these projects are just for academic purpose and hence the models should not be considered for any other uses.
+# SMS SPAM-HAM Classifier Deployment Branch
+This is a repository for deploying SMS Spam/Ham Classifier project in Heroku Cloud. You will find the code in [main](https://github.com/Pratik872/NLP/tree/main/E2EProject/SMSClassifier) branch.
 
-_Note: Data used in the projects is for demonstration purposes only._
+This project is deployed at heroku. Check [here](https://sms-classifier-nlp-ml.herokuapp.com/)
 
 ## Contents
 
-- ### End to End projects(Deployment):
+- ### Folder Structure for Deployment : 
 
-	- [SMS Spam-Ham Detection](https://github.com/Pratik872/NLP/tree/main/E2EProject/SMSClassifier): The dataset (corpus) contains about 5574 tagged SMS collected for research. I have used this corpus for buliding my model. Click on the hyperlink to view more details
+	Some files added for deployment to the existing files which are present in [main](https://github.com/Pratik872/NLP/tree/main/E2EProject/SMSClassifier) branch folder structure are:
 
+	- Procfile : This is basically the file in which you have to mention the Flask application initialized and in which file it is initialised
 
-- ### Other Projects
-
-	- [Fake News Classifier](https://github.com/Pratik872/NLP/tree/main/FakeNewsClassifier): The dataset from kaggle consists of 20800 news records labelled as 1/0 i.e fake/real. I have used this data for buliding my model. Click on the hyperlink to view more details
+	- requirements.txt : This file is already present in the 'main' branch folder structure. This file is required for dockerisation of the application and also to deploy it on heroku. While deploying the application on Heroku, this file gets triggered and all the dependencies are downloaded.
