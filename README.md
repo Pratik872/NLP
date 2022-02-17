@@ -7,9 +7,9 @@ _Note: Data used in the projects is for demonstration purposes only._
 
 - ### End to End projects(Deployment):
 
-	- [SMS Spam-Ham Detection](https://github.com/Pratik872/AI-ML/tree/main/E2E%20projects/SMSSpamClassifier): The dataset (corpus) contains about 5574 tagged SMS collected for research. I have used this corpus for buliding my model. Click on the hyperlink to view more details
+	- [SMS Spam-Ham Detection](https://github.com/Pratik872/NLP/tree/main/E2EProject/SMSClassifier): The dataset (corpus) contains about 5574 tagged SMS collected for research. I have used this corpus for buliding my model. Click on the hyperlink to view more details
 
 
 - ### Other Projects
 
-	- [Fake News Classifier](https://github.com/Pratik872/AI-ML/tree/main/FakeNewsClassifier): The dataset from kaggle consists of 20800 news records labelled as 1/0 i.e fake/real. I have used this data for buliding my model. Click on the hyperlink to view more details
+	- [Fake News Classifier](https://github.com/Pratik872/NLP/tree/main/FakeNewsClassifier): The dataset from kaggle consists of 20800 news records labelled as 1/0 i.e fake/real. I have used this data for buliding my model. Click on the hyperlink to view more details
