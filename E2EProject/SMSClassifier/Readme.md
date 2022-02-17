@@ -1,6 +1,6 @@
 # SMS Spam-Ham Detection
 
-To test the deployed model click [here](https://sms-classifier-nlp-ml.herokuapp.com/).<br/>
+To test the deployed model click [here](https://sms-classifier-deploy.herokuapp.com/).<br/>
 Note : It takes some time to load the heroku page. Patience is the key!!
 
 ## Overview
@@ -16,19 +16,19 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 -  So, in this project I have tried to create a model which predicts if a message is spam or a ham. 
 
 ## Project Structure
-- [main.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/main.py) : This file has the flask application which is created.
+- [main.py](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/main.py) : This file has the flask application which is created.
 
-- [utils.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/utils.py) : This file has all the helper functions which are required to run the application.
+- [utils.py](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/utils.py) : This file has all the helper functions which are required to run the application.
 
-- [constants.py](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/constants.py) : This file has all the constant variables required in developing the application.
+- [constants.py](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/constants.py) : This file has all the constant variables required in developing the application.
 
-- [templates](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/templates) : This folder has all the templates which are rendered in the application
+- [templates](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/templates) : This folder has all the templates which are rendered in the application
 
-- [readme_resources](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources) : This folder has all the images used to create readme file.
+- [readme_resources](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/readme_resources) : This folder has all the images used to create readme file.
 
-- [requirements.txt](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/requirements.txt) : This file has all the packages used to code and build the application.
+- [requirements.txt](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier//requirements.txt) : This file has all the packages used to code and build the application.
 
-- [SMSClassifier.ipynb](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/SMSClassifier.ipynb) : This jupyter notebook has the code for making models.
+- [SMSClassifier.ipynb](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/SMSClassifier.ipynb) : This jupyter notebook has the code for making models.
 
 ## Problem Objective
 - To build a model which can classify SMS messages into Spam - Ham
@@ -94,6 +94,6 @@ Correction : The image on right side is for RandomForestsClassifier instead of N
 ### Deployment
 - Deployed using Heroku(PAAS)
 
-- For deployment repository click [here](https://github.com/Pratik872/AI-ML/tree/NLPDeploy)
+- For deployment branch click [here](https://github.com/Pratik872/NLP/tree/deploy)
 
-- For Web Application click [here](https://sms-classifier-nlp-ml.herokuapp.com/)
+- For Web Application click [here](https://sms-classifier-deploy.herokuapp.com/)
