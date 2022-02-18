@@ -56,8 +56,8 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 
 - The data was imbalanced. So balanced the dataset using Over-Sampling method. I have used 'imblearn' library for this.
 
-![HAMvsSPAMOrg](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/imb_dataset.png)
-![HAMvsSPAMBal](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/bal_dataset.png)
+![HAMvsSPAMOrg](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/readme_resources/imb_dataset.png)
+![HAMvsSPAMBal](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/readme_resources/bal_dataset.png)
 
 ### Model Making
 
@@ -73,18 +73,18 @@ Note : It takes some time to load the heroku page. Patience is the key!!
 
 - To check how many messages are correctly identified as spams and hams I have used confusion matrices for both models.
 
-![CF_NB](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/NB_CF.png)
-![CF_RF](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/readme_resources/RF_CF.png)
+![CF_NB](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/readme_resources/NB_CF.png)
+![CF_RF](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/readme_resources/RF_CF.png)
 
 Correction : The image on right side is for RandomForestsClassifier instead of Naive Bayes.
 
 - I have given importance to 'precision' score as we need to correct identify the spam message.eg : What if model detects a ham message as spam!!!The person would miss important message!!
 
 ### DATA SOURCE
-- [SMS Spam-Ham Dataset](https://github.com/Pratik872/AI-ML/blob/main/Natural%20Language%20Processing/SpamHam%20Classifier/SMSSpamCollection)
+- [SMS Spam-Ham Dataset](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/SMSSpamCollection)
 
 ### Notebook
-- [SMS Spam-Ham Classifier](https://github.com/Pratik872/AI-ML/blob/main/E2E%20projects/SMSSpamClassifier/SMSClassifier.ipynb)
+- [SMS Spam-Ham Classifier](https://github.com/Pratik872/NLP/blob/main/E2EProject/SMSClassifier/SMSClassifier.ipynb)
 
 ### Built with 🛠️
 - Packages : Pandas,Numpy,Seaborn,Matplotlib,NLTK,Sklearn,re(Regular Expressions),Imblearn,Flask,pickle
